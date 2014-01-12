@@ -1,0 +1,33 @@
+<!doctype html>
+<html ng-app>
+<head> 
+	<script src="js/angular.js"></script>
+	<script>
+	var app = angular.module('myApp', []);
+	
+	function PostsCtrlAjax($scope, $http){
+		$http({method: 'POST', url: 'js/posts.json'}).success(function(data) {
+			$scope.posts = data;
+		});
+	}
+	function Load($scope, $http) {
+	    $http.get({method: 'GET', url: 'js/post.json'}).
+	        success(function(data) {
+	            $scope.greeting = data;
+        });
+	}
+
+	
+
+	</script>s
+</head>
+  
+<body>
+	<div ng-app="myApp">
+		<div ng-controller="Load">
+			<p>The ID is {{greeting.id}}</p>
+			<p>The content is {{greeting.content}}</p>
+		</div>
+	</div>
+</body>
+</html>
