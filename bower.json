@@ -1,0 +1,16 @@
+{
+  "name": "proangular",
+  "version": "0.0.0",
+  "homepage": "https://github.com/brunoksato/proangular",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.11"
+  }
+}
