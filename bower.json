@@ -11,6 +11,7 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "~1.2.11"
+    "angular": "~1.2.11",
+    "foundation": "~5.0.3"
   }
 }
