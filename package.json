@@ -1,0 +1,38 @@
+{
+  "name": "proangular",
+  "version": "0.0.0",
+  "description": "proangular ==========",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-autoprefixer": "~0.6.5",
+    "grunt-contrib-cssmin": "~0.7.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-notify": "~0.2.17",
+    "grunt-contrib-sass": "~0.7.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-imagemin": "~0.5.0",
+    "grunt-contrib-livereload": "~0.1.2",
+    "grunt-regarde": "~0.1.1",
+    "grunt-contrib-connect": "~0.6.0",
+    "grunt-open": "~0.2.3",
+    "matchdep": "~0.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brunoksato/proangular.git"
+  },
+  "author": "bruno.sato@live.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brunoksato/proangular/issues"
+  },
+  "homepage": "https://github.com/brunoksato/proangular"
+}
